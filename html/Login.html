@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/Registro/css/Login.css">
+    <title>Registro</title>
+</head>
+<body>
+<!-- Primer Tarjera - Registro -->
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crea tu Cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o registrate con tu correo</span>
+        <div>
+            <label>
+                <i class="bx bx-user"></i> 
+                <input type="text" placeholder="Nombre">
+            </label>     
+        </div>              
+        <div>
+            <label>
+                <i class="bx bx-envelope"></i>
+                <input type="email" placeholder="Correo">
+            </label>    
+        </div>
+        <div>
+            <label>
+                <i class="bx bx-lock-alt"></i>
+                <input type="password" placeholder="Contraseña">
+            </label>
+        </div>
+        <button>Registrar</button>
+            </form>
+        </div>
+<!-- Segunda Tarjera - Registro -->
+        <div class="form-container sign-in">
+            <form>
+                <h1>Iniciar Sesión</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa la contraseña de tu correo</span>
+                <div>
+                    <label>
+                        <i class="bx bx-envelope"></i>
+                        <input type="email" placeholder="Correo">
+                    </label>    
+                </div>
+                <div>
+                    <label>
+                        <i class="bx bx-lock-alt"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                </div>
+                <a href="#">¿Has olvidado tu contraseña?</a>
+                <button>Iniciar Sesión</button>
+            </form>
+        </div>
+<!-- Botones de Acción -->
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Introduzca sus datos para acceder todas las funciones del sitio web</p>
+                    <button class="hidden" id="login">Iniciar Sesion</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>!!Bienvenido Nuevamente!!</h1>
+                    <p>Regístrese con sus datos personales para utilizar todas las funciones del sitio web</p>
+                    <button class="hidden" id="register">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Ayuda Script :"( -->    
+    <script src="/Registro/js/script.js"></script>
+<!--     <script src="/Registro/js/Register.js"></script>
+    <script src="/Registro/js/Login.js"></script>  -->
+</body>
+</html>
