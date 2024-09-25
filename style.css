@@ -99,6 +99,47 @@
     width: 100%;
     outline: none;
 }
+/* Tipo de usuario */
+select{
+    background-color: #ffffff;
+    border: none;
+    margin: 8px 0;
+    padding: 0px 7px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.select-box{
+    color:#6e6e6e;
+    border: none;
+    padding-right: 5rem; 
+    margin: 0;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.invisible{
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 99;
+    width: 100%;
+    display: none;
+}
+
+.select-items{
+    position: absolute;
+    background-color: #fff; 
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+}
 
 /* Emotesss */
 i{
@@ -192,13 +233,13 @@ label input{
     height: 100%;
     overflow: hidden;
     transition: all 0.6s ease-in-out;
-    border-radius: 150px 0 0 100px;
+    border-radius: 100px 0 0 100px;
     z-index: 1000;
 }
 
 .container.active .toggle-container{
     transform: translateX(-100%);
-    border-radius: 0 150px 100px 0;
+    border-radius: 0 100px 100px 0;
 }
 
 .toggle{

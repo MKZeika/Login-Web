@@ -12,8 +12,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="archivos/assets/Screenshot 2024-09-09 6.08.35 PM.ico">
     <title>Registro</title>
-</head>
+</head>     
 <body>
 <!-- Primer Tarjera - Registro -->
     <div class="container" id="container">
@@ -26,6 +27,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>o registrate con tu correo</span>
+        <!-- Ingreso de Datos -->
         <div>
             <label>
                 <i class="bx bx-user"></i> 
@@ -44,10 +46,21 @@
                 <input type="password" placeholder="Contraseña">
             </label>
         </div>
+        <div>
+            <label>
+                <i class="bx bx-detail"></i>
+                <select class="select-box" placeholder="Rol de Usuario">    
+                    <option class="invisible" value="" disabled selected>Selecciona un rol</option>
+                    <option value="cliente">Cliente</option>
+                    <option value="administrador">Administrador de Ventas</option>
+                    <option value="socio">Socio</option>  
+                </select>
+            </label>
+        </div>
         <button>Registrar</button>
             </form>
         </div>
-<!-- Segunda Tarjera - Registro -->
+<!-- Segunda Tarjera - Inicio de seción -->
         <div class="form-container sign-in">
             <form>
                 <h1>Iniciar Sesión</h1>
@@ -57,6 +70,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>o usa la contraseña de tu correo</span>
+    <!-- Ingreso de Datos -->
                 <div>
                     <label>
                         <i class="bx bx-envelope"></i>
@@ -92,7 +106,5 @@
 
 <!-- Ayuda Script :"( -->    
     <script src="script.js"></script>
-<!--     <script src="/Registro/js/Register.js"></script>
-    <script src="/Registro/js/Login.js"></script>  -->
-</body>
+
 </html>
